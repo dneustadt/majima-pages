@@ -10,6 +10,9 @@
     "installer-name": "MajimaPages"
   },
   "require": {
-    "dneustadt/majima-base-assets": "^0.1"
+    "dneustadt/majima-base-assets": "^0.1",
+    "installer-paths": {
+      "plugins/{$name}": ["type:majima-plugin"]
+    }
   }
 }
