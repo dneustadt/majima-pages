@@ -1,0 +1,28 @@
+.header-navigation {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    float: left;
+    a {
+      display: block;
+      padding: 8px;
+    }
+  }
+}
+
+.header-navigation li>.header-navigation {
+  display: none;
+  color: $color-initial;
+  background-color: $color-tertiary;
+}
+
+.header-navigation:hover,
+.header-navigation li:hover>.header-navigation {
+  display: block;
+}
+
+.header-navigation li:hover>.header-navigation {
+  position: absolute;
+}

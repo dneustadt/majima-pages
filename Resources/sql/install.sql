@@ -1,0 +1,6 @@
+CREATE TABLE `pages` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `parentID` INT(11) NOT NULL,
+  `name` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE = InnoDB;

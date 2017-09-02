@@ -1,0 +1,1 @@
+{inherits "Index/index.tpl"}

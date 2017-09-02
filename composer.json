@@ -1,0 +1,15 @@
+{
+  "name": "dneustadt/majima-pages",
+  "version": "0.1.0",
+  "keywords": ["majima", "navigation", "pages", "cms"],
+  "description": "Basic navigation and management of pages for majima",
+  "homepage": "http://softcoder.de",
+  "license": "MIT",
+  "type": "majima-plugin",
+  "extra": {
+    "installer-name": "MajimaPages"
+  },
+  "require": {
+    "dneustadt/majima-base-assets": "^0.1"
+  }
+}
