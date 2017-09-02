@@ -13,6 +13,7 @@
     }
   },
   "require": {
+    "composer/installers": "~1.0",
     "dneustadt/majima-base-assets": "^0.1"
   }
 }
