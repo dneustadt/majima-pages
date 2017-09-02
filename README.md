@@ -7,6 +7,8 @@ Demo-Plugin for majima framework.
 
 Basic navigation and management of pages.
 
+### Installation
+
 Clone the git repository and the required assets to the directory 
 MajimaBaseAssets resp. MajimaPages in majima's plugin directory:
 
